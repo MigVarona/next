@@ -12,6 +12,8 @@ import Na from "@/app/components/Na"
 import Bu from "@/app/components/Bu"
 import Buv from "@/app/components/Buv"
 import Pr from "@/app/components/Pr"
+import Pag from "@/app/components/pag"
+import Ima from "@/app/components/Ima"
 
 
 
@@ -49,7 +51,9 @@ export default function Home() {
       </div>
       <Bu />
       <Pr />
+      <Pag />
       <Buv />
+     <Ima />
         <Foo />
       </div>
     </div>
