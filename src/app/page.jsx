@@ -9,6 +9,9 @@ import Cont from "@/app/components/Cont"
 import Mod from "@/app/components/Mod"
 import Im from "@/app/components/Im"
 import Na from "@/app/components/Na"
+import Bu from "@/app/components/Bu"
+import Buv from "@/app/components/Buv"
+import Pr from "@/app/components/Pr"
 
 
 
@@ -44,6 +47,9 @@ export default function Home() {
       <Im />
       <Im />
       </div>
+      <Bu />
+      <Pr />
+      <Buv />
         <Foo />
       </div>
     </div>
