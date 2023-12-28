@@ -2,6 +2,8 @@ import React from "react";
 import dynamic from "next/dynamic";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
 import { AcmeLogo } from "./AcmeLogo.jsx";
+import Inp from "@/app/components/Inp.jsx"
+import { FaSearch } from 'react-icons/fa';
 
 const NavbarMenuToggle = dynamic(() => import("@nextui-org/react").then((mod) => mod.NavbarMenuToggle), {
   ssr: false,
@@ -34,6 +36,10 @@ export default function App() {
           <AcmeLogo />
           <p className="font-bold text-inherit">ACME</p>
         </NavbarBrand>
+        <div className="hidden sm:flex items-center"> 
+        <FaSearch className="text-gray-500 mr-2 m-2" />
+        <Inp  />
+        </div>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">

@@ -14,13 +14,14 @@ import Buv from "@/app/components/Buv"
 import Pr from "@/app/components/Pr"
 import Pag from "@/app/components/pag"
 import Ima from "@/app/components/Ima"
+import Inp from "@/app/components/Inp"
 
 
 
 
 export default function Home() {
   return (
-    <div>
+    <div className="mt-5">
       <Na />
       <div className="flex flex-col h-screen">
         <div className="">
@@ -34,11 +35,15 @@ export default function Home() {
           <Card />
           <Card />
           <Card />
+          <Card />
+          <Card />
           
         </div>
 
 
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center gap-9 flex-wrap">
+          <Carr />
+          <Carr />
           <Carr />
         </div>
         <Cont />
