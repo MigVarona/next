@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    display: flex;
+    padding: var(--navbar-padding, 0.5rem);
+    min-height: 4rem;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.swap.swap-rotate.dark {
+    /* Estilos de modo oscuro */
+    background-color: #333;
+    color: #fff;
+}
+
+.card {
+    flex-wrap: wrap !important;
+}
