@@ -7,7 +7,7 @@ import Hero from "@/app/components/Hero";
 import Foo from "@/app/components/Foo"
 import Cont from "@/app/components/Cont"
 import Mod from "@/app/components/Mod"
-
+import Im from "@/app/components/Im"
 import Na from "@/app/components/Na"
 
 
@@ -38,7 +38,12 @@ export default function Home() {
         </div>
         <Cont />
         <Mod />
-      
+        <div className="Im flex items-center justify-center gap-6 m-6 flex-wrap">
+      <Im />
+      <Im />
+      <Im />
+      <Im />
+      </div>
         <Foo />
       </div>
     </div>
