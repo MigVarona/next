@@ -6,6 +6,7 @@ import Nav from "@/app/components/Nav";
 import Hero from "@/app/components/Hero";
 import Foo from "@/app/components/Foo"
 import Cont from "@/app/components/Cont"
+import Mod from "@/app/components/Mod"
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
           <Carr />
         </div>
         <Cont />
+        <Mod />
         <Foo />
       </div>
     </div>

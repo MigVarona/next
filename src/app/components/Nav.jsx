@@ -6,6 +6,7 @@ function Nav() {
         </div>
         <div className="flex-none space-x-4 md:space-x-8 lg:space-x-12">
           <ul className="menu menu-horizontal px-1">
+            
             <li><a>Link</a></li>
             <li>
               <details>
