@@ -37,7 +37,7 @@ export default function App() {
           <p className="font-bold text-inherit">ACME</p>
         </NavbarBrand>
         <div className="hidden sm:flex items-center"> 
-        <FaSearch className="text-gray-500 mr-2 m-2" />
+        <FaSearch className="text-gray-500 mr-2 " />
         <Inp  />
         </div>
       </NavbarContent>
