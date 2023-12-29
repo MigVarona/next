@@ -18,6 +18,9 @@ import Inp from "@/app/components/Inp"
 import Form from "@/app/components/Form"
 import Prod from "@/app/components/Prod"
 import Po from "@/app/components/Po"
+import Ca from "@/app/components/Ca"
+import Nava from "@/app/components/Nava"
+
 
 
 
@@ -30,6 +33,7 @@ export default function Home() {
         <div className="">
       
       </div>
+      <Nava />
         <Nav />
         <Hero />
      
@@ -65,6 +69,8 @@ export default function Home() {
      <Form />
      <Prod />
      <Po />
+     <Ca />
+   
         <Foo />
       </div>
     </div>

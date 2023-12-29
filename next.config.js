@@ -1,9 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    images: {
-      domains: ['images.prismic.io'],
-    },
-  };
-  
-  module.exports = nextConfig;
-  
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.prismic.io',
+      },
+    ],
+  },
+}
