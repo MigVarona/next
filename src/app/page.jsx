@@ -15,6 +15,8 @@ import Pr from "@/app/components/Pr"
 import Pag from "@/app/components/pag"
 import Ima from "@/app/components/Ima"
 import Inp from "@/app/components/Inp"
+import Form from "@/app/components/Form"
+import Prod from "@/app/components/Prod"
 
 
 
@@ -59,6 +61,8 @@ export default function Home() {
       <Pag />
       <Buv />
      <Ima />
+     <Form />
+     <Prod />
         <Foo />
       </div>
     </div>
