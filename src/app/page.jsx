@@ -17,6 +17,7 @@ import Ima from "@/app/components/Ima"
 import Inp from "@/app/components/Inp"
 import Form from "@/app/components/Form"
 import Prod from "@/app/components/Prod"
+import Po from "@/app/components/Po"
 
 
 
@@ -63,6 +64,7 @@ export default function Home() {
      <Ima />
      <Form />
      <Prod />
+     <Po />
         <Foo />
       </div>
     </div>
